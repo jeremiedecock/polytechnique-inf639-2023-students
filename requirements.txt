@@ -1,0 +1,15 @@
+gymnasium[box2d]
+imageio
+inf581==1.0.4
+jupyterlab
+jupytext
+matplotlib
+numpy
+pandas
+pygame
+seaborn
+torch
+#torchaudio
+#torchvision
+tqdm
+#scikit-learn    # To load some datasets
