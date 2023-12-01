@@ -430,7 +430,7 @@ class NumpyDataset(data.Dataset):
             A function/transform that takes in an torch.Tensor and returns a transformed version.
         """
         super().__init__()
-        self.obs = torch.FloatTensor(array["obs"])
+        self.obs = torch.FloatTensor(expert_trajectories_dict["obs"])
         self.actions = torch.FloatTensor(expert_trajectories_dict["actions"])
         self.transform = transform
 
